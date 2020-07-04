@@ -7,19 +7,17 @@
 body{
     font-family: 'Vesper Libre', serif;
 }
-header{
-    height: 90vh;
-    width: 100vw;
-}
 nav{
     width:99.8%;
     background-color:ivory;
     border:2px solid black;
     height: 10%;
     text-align:center;
-    padding-top: 2%;
     overflow: hidden;
+    padding-top: 2%;
     position: fixed;
+    top: 0;
+    right: 0;
     z-index: 1;
 }
 nav ul li{
@@ -37,16 +35,19 @@ nav ul li:hover{
     text-decoration: underline;
     font-weight: bolder;
 }
+header{
+  height: 60vh;
+  width: 90vw;
+}
 .header-image{
-     width:90%;
-     height: 75%;
-     position: relative;
-     top:20%;
      background-image: url(background.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
+     height: 120%;
+     width: 100%;
      margin-left: 5%;
+     margin-top: 10%;
      text-align: center;
      border:2px solid black;
      border-radius: 2%;
@@ -72,7 +73,8 @@ nav ul li:hover{
     text-align: center;
     font-size: 290%;
     font-weight: bolder;
-    margin:5% auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 .editor-container{
     width: 90%;
@@ -98,7 +100,9 @@ nav ul li:hover{
     background-repeat: no-repeat;
     width:15vw;
     height: 30vh;
-    margin:5% auto;
+    padding-top: 5%;
+    margin-left: 15%;
+    margin-top: 5%;
     border:2px solid black;
     border-radius: 5%;
 }
